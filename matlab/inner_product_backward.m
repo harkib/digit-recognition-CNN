@@ -18,4 +18,7 @@ for b = 1:batch_size
 
 end
 
+param_grad.b = param_grad.b/batch_size;
+param_grad.w = param_grad.w/batch_size;
+
 end
