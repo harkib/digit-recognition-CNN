@@ -27,4 +27,5 @@ end
 C = confusionmat(ytest,perdictions);
 figure;
 confusionchart(C);
-savefig('confusionchart.fig');
+title("Confusion Chart");
+savefig('results\confusionchart.fig');
